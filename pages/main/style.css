@@ -14,7 +14,7 @@ body {
 
 .background {
     background-size: cover;
-    background-image: url('/shelter/assets/image/start-screen-gradient-background.jpg');
+    background-image: url('/assets/image/start-screen-gradient-background.jpg');
     object-fit: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,7 +429,7 @@ body {
 footer {
     display: flex;
     justify-content: space-between;
-    background-image: url('/shelter/assets/image/footer-gradient-background.jpg');
+    background-image: url('/assets/image/footer-gradient-background.jpg');
 }
 
 .e-p-b-l {
@@ -517,6 +517,7 @@ footer {
     .notdog {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .dog {
@@ -584,6 +585,7 @@ footer {
 
     .donation {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .howy {
@@ -600,7 +602,7 @@ footer {
 
     footer {
         flex-direction: column;
-        background-image: url('/shelter/assets/image/footer-gradient-background2.jpg');
+        background-image: url('/assets/image/footer-gradient-background2.jpg');
     }
 
     .e-p-b-l{
@@ -650,6 +652,7 @@ footer {
     .notdog {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .dog {
@@ -717,6 +720,7 @@ footer {
 
     .donation {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .howy {
@@ -733,7 +737,7 @@ footer {
 
     footer {
         flex-direction: column;
-        background-image: url('/shelter/assets/image/footer-gradient-background2.jpg');
+        background-image: url('/assets/image/footer-gradient-background2.jpg');
     }
 
     .e-p-b-l{
@@ -760,6 +764,10 @@ footer {
 @media (max-width:712px){
     .menu {
         padding: 30px 0 0 10px;
+    }
+
+    .youhelp {
+        align-items: center;
     }
 
     .not {
@@ -857,7 +865,6 @@ footer {
     }
 
     .card-help {
-        justify-content: flex-start;
         margin: 42px 0 42px 0;
     }
 
@@ -993,6 +1000,7 @@ footer {
     footer {
         flex-direction: column;
         background-size: cover;
+        align-items: center;
     }
 
     .footer-dog {
@@ -1004,6 +1012,10 @@ footer {
     .left-and-right {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .donation {
+        align-items: center;
     }
 }
 
@@ -1211,6 +1223,10 @@ footer {
         margin: 20px 20px 0 20px;
     }
 
+    .donation {
+        align-items: center;
+    }
+
     .donation-dog {
         width: 260px;
         height: 135.2px;
@@ -1243,6 +1259,7 @@ footer {
     footer {
         flex-direction: column;
         background-size: cover;
+        align-items: center;
     }
 
     .footer-dog {
