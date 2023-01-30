@@ -261,7 +261,7 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
-    background-image: url('/assets/image/footer-gradient-background.jpg');
+    background-image: url('../../assets/image/footer-gradient-background.jpg');
     background-size: cover;
 }
 
@@ -330,7 +330,7 @@ footer {
 
     footer {
         flex-direction: column;
-        background-image: url('/assets/image/footer-gradient-background2.jpg');
+        background-image: url('../../assets/image/footer-gradient-background2.jpg');
     }
 
     .e-p-b-l{
